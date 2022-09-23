@@ -13,6 +13,8 @@ class Jvmutil < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # virtualenv_install_with_resources
+    bin.install Dir["bin/*"]
+    man1.install Dir["share/man/man1/*"]
   end
 
   # test do
