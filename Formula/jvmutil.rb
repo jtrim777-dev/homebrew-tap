@@ -3,9 +3,9 @@ class Jvmutil < Formula
 
   desc "A utility for viewing and managing the currently installed and active JVMs on macOS"
   homepage "https://github.com/jtrim777-dev/jvmutil"
-  url "https://maven.jtrim777.dev/releases/dev/jtrim777/jvmutil/0.1.4/jvmutil-pkg.tgz"
-  version "0.1.4"
-  sha256 "035ea800b1ab82f05dedd477754aef894a39936313127c0b50c3a4dfba2bd970"
+  url "https://maven.jtrim777.dev/releases/dev/jtrim777/jvmutil/0.1.5/jvmutil-pkg.tgz"
+  version "0.1.5"
+  sha256 "29c924f115321d38b0485b6d99d584afb0083e466dc3bffc67f3efe1ba38e18f"
   license "MIT"
 
   depends_on "python"
