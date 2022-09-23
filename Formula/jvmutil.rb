@@ -5,7 +5,7 @@ class Jvmutil < Formula
   homepage "https://github.com/jtrim777-dev/jvmutil"
   url "https://maven.jtrim777.dev/releases/dev/jtrim777/jvmutil/0.1.3/jvmutil-pkg.tgz"
   version "0.1.3"
-  sha256 "a13f54863950fccf32c9615035cd6e0339df6f8bae54f0f7dd7467ecc8310f9b"
+  sha256 "2c2310ad82dbab7fa2a05626ac4b7b268c678519f93fc986527e843cd0c512c6"
   license "MIT"
 
   depends_on "python"
