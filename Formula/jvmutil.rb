@@ -15,7 +15,7 @@ class Jvmutil < Formula
     # virtualenv_install_with_resources
     bin.install Dir["bin/*"]
     man1.install Dir["share/man/man1/*"]
-    chmod 0744, bin/"jvmutil"
+    chmod 0744, bin/"jvmutil", verbose: true
   end
 
   # test do
