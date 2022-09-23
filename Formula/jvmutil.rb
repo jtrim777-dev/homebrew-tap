@@ -16,6 +16,9 @@ class Jvmutil < Formula
     bin.install Dir["bin/*"]
     man1.install Dir["share/man/man1/*"]
     chmod "ugo=rwx", bin/"jvmutil", verbose: true
+
+    output = system bin/"jvmutil", "-q", "active", "--fields", "path", "--display", "raw"
+    ln_s libexec/"javahome", output
   end
 
   # test do
