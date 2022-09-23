@@ -11,17 +11,11 @@ class Jvmutil < Formula
   depends_on "python"
 
   def install
-    # virtualenv_install_with_resources
     bin.install Dir["bin/*"]
     man1.install Dir["share/man/man1/*"]
     chmod "ugo=rwx", bin/"jvmutil", verbose: true
 
     executable = (bin/"jvmutil").to_s
-    # gpo = `#{executable} -q active --fields path --display raw`
     system executable, "relink"
-
-    # mkdir libexec
-    # ln_s gpo, libexec/"javahome"
-    libexec.install_symlink gpo
   end
 end
