@@ -12,7 +12,7 @@ class Jvmutil < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    virtualenv_install_with_resources
+    # virtualenv_install_with_resources
   end
 
   # test do
