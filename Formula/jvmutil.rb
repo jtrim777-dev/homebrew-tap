@@ -26,10 +26,10 @@ class Jvmutil < Formula
   def caveats
     <<~EOS
       This package creates a symlink to the active JVM at:
-        #{prefix}/opt/javahome
+        #{pkgetc}/javahome
 
       In order to have your system recognize this path, in your shell
-      profile you MUST set JAVA_HOME to "#{prefix}/opt/javahome"
+      profile you MUST set JAVA_HOME to "#{pkgetc}/javahome"
     EOS
   end
 end
