@@ -17,8 +17,8 @@ class Jvmutil < Formula
 
     executable = (bin/"jvmutil").to_s
 
-    system "sed", "-i", "s:{{BIN_PATH}}:#{bin.to_s}:", executable
-    system "sed", "-i", "s:{{ETC_PATH}}:#{pkgetc.to_s}:", executable
+    system "sed", "-i", "", "s:{{BIN_PATH}}:#{bin.to_s}:", executable
+    system "sed", "-i", "", "s:{{ETC_PATH}}:#{pkgetc.to_s}:", executable
 
     system executable, "relink"
   end
