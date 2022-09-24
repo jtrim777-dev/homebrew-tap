@@ -1,4 +1,4 @@
-class Lsusb < Formula
+class LsusbTree < Formula
   include Language::Python::Virtualenv
 
   desc "A macOS utility for viewing attached USB devices"
