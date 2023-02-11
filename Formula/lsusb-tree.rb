@@ -5,7 +5,7 @@ class LsusbTree < Formula
   homepage "https://github.com/jtrim777-dev/lsusb"
   url "https://maven.jtrim777.dev/releases/dev/jtrim777/lsusb/0.1.2/lsusb-pkg.tgz"
   version "0.1.2"
-  sha256 "8aadc52cf4ccc13915cef8559864eaa9dfd3df7b953a6b1c98f60b1866538bc1"
+  sha256 "40d6e3f1aacb4479f7a29bd5cae2081230ead2bc12afd574ed2148014d51c456"
   license "MIT"
 
   depends_on "python"
