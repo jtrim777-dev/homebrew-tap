@@ -3,9 +3,9 @@ class LsusbTree < Formula
 
   desc "A macOS utility for viewing attached USB devices"
   homepage "https://github.com/jtrim777-dev/lsusb"
-  url "https://maven.jtrim777.dev/releases/dev/jtrim777/lsusb/0.1.3/lsusb-pkg.tgz"
-  version "0.1.3"
-  sha256 "40d6e3f1aacb4479f7a29bd5cae2081230ead2bc12afd574ed2148014d51c456"
+  url "https://github.com/jtrim777-dev/lsusb/releases/download/v0.1.4/lsusb-pkg.tgz"
+  version "0.1.4"
+  sha256 "24a0ce548ee6c80f09fa3ef7bd1d6e2d94079c66516885a45ed0d1db71546251"
   license "MIT"
 
   depends_on "python"
